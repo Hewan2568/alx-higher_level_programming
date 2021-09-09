@@ -1,11 +1,85 @@
 #!/usr/bin/python3
 
-element_at = __import__('1-element_at').element_at
+def add(a, b):
 
+        """My addition function
 
+            Args:
 
-my_list = [1, 2, 3, 4, 5]
+                a: first integer
 
-idx = -1
+                b: second integer
 
-print("Element at index {:d} is {}".format(idx, element_at(my_list, idx)))
+            Returns:
+
+                The return value. a + b
+
+            """
+
+            return (a + b)
+
+            
+
+            
+
+            def sub(a, b):
+
+                    """My subtraction function
+
+                        Args:
+
+                            a: first integer
+
+                            b: second integer
+
+                        Returns:
+
+                            The return value. a - b
+
+                        """
+
+                        return (a - b)
+
+                        
+
+                        
+
+                        def mul(a, b):
+
+                                """My multiplication function
+
+                                    Args:
+
+                                        a: first integer
+
+                                        b: second integer
+
+                                    Returns:
+
+                                        The return value. a * b
+
+                                    """
+
+                                    return (a * b)
+
+                                    
+
+                                    
+
+                                    def div(a, b):
+
+                                            """My division function
+
+                                                Args:
+
+                                                    a: first integer
+
+                                                    b: second integer
+
+                                                Returns:
+
+                                                    The return value. a / b
+
+                                                """
+
+                                                return int(a / b)
