@@ -1,10 +1,7 @@
-  #!/usr/bin/python3
+#!/usr/bin/python3
 
 
-def uniq_add(my_list=[]):
+def common_elements(set_1, set_2):
 
-    my_list = set(my_list)
-    res = 0
-    for i in my_list:
-        res += i
-    return(res)
+    set_3 = set_1 & set_2
+    return(set_3)
