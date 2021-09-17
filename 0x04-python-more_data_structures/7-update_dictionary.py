@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 
 
-def print_sorted_dictionary(a_dictionary):
+def multiply_by_2(a_dictionary):
 
-    if a_dictionary:
-        for key, val in sorted(a_dictionary.items()):
-            print("{}: {}".format(key, val))
+    new_dictionary = dict()
+
+    for key in a_dictionary:
+        new_dictionary[key] = a_dictionary[key] * 2
+
+    return(new_dictionary)
