@@ -1,11 +1,4 @@
 #!/usr/bin/python3
-
-
-def multiply_by_2(a_dictionary):
-
-    new_dictionary = dict()
-
-    for key in a_dictionary:
-        new_dictionary[key] = a_dictionary[key] * 2
-
-    return(new_dictionary)
+def update_dictionary(my_dict, key, value):
+    my_dict[key] = value
+    return (my_dict)
