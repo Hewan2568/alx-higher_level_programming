@@ -1,13 +1,10 @@
 #!/usr/bin/python3
-""" defines"""
+"""
+Contains the function "wrtie_file"
+"""
 
 
-def write_file(filename="", text=''):
-    """write to a file
-    Args
-        filename - write to this
-        text - text to write
-    """
-    with open(filename, 'w', encoding='UTF8') as f:
-        x = f.write(text)
-        return(x)
+def write_file(filename="", text=""):
+    """returns the number of chars written to "filename" from "text" """
+    with open(filename, 'w', encoding='utf=8') as f:
+        return f.write(text)
